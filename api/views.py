@@ -7,7 +7,7 @@ from django.views import View
 from django.http import JsonResponse
 from django.db import models
 # gestion id user
-from accounts.models import User
+from authentification.models import User
 from django.core.cache import cache
 # affichage url
 from django.urls import reverse
